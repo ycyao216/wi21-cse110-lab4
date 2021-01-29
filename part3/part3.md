@@ -6,7 +6,7 @@
 
    * ### What is the bug?
     
-     The bug is caused by `num1` and `num2` being of type string, so the `+` operation will be treated as a string concatenation, and `result` will thus be a string that is the concatenation of `num1` and `num2`, instead of the desired arithmatic summation of `num1` and `num2`.
+     The bug is caused by `num1` and `num2` being of type string, so the `+` operation will be treated as a string concatenation, and `result` will thus be a string that is the concatenation of strings `num1` and `num2`, instead of the desired arithmatic summation of number `num1` and `num2`.
 
    * ### How would you fix it?
 
